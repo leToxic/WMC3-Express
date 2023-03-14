@@ -56,6 +56,18 @@ export class ProductRouter {
             }
         });
 
+        this.router.post("/:sid", (req, res) => {
+            const sid: number = parseInt(req.params.sid, 10);
+            const product: Product = req.body;
+
+            const newProduct = this.productService.createWithId(product, sid);
+            if (newProduct == null) {
+                res.status(400).send("Ein Wert falsch!")
+            } else {
+                res.status(201).json(newProduct);
+            }
+        });
+
         this.router.post("/addBulk/", (req, res) => {
             const products: Product[] = req.body;
             const isBulked = this.productService.addBulk(products);

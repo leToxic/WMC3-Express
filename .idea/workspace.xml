@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b761171-9a0f-4325-8c0a-cc987cd43dc1" name="Changes" comment="16 fertig">
+      <change afterPath="$PROJECT_DIR$/src/car/car.router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/car/car.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/car/car.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/car/car.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/product.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/product.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LjWYmnpsoWieKh3lWHNvddMbc1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,6 +85,13 @@
       <workItem from="1677513289606" duration="440000" />
       <workItem from="1677569970305" duration="16000" />
       <workItem from="1677593098743" duration="829000" />
+      <workItem from="1678200300227" duration="34000" />
+      <workItem from="1678205572957" duration="95000" />
+      <workItem from="1678205813190" duration="164000" />
+      <workItem from="1678206365886" duration="78000" />
+      <workItem from="1678803582183" duration="2506000" />
+      <workItem from="1678806528666" duration="9000" />
+      <workItem from="1678806781805" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="16 fertig">
       <created>1676389123261</created>

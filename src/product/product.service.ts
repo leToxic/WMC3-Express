@@ -22,7 +22,19 @@ export class ProductService {
             return null;
         }
 
-        product.id = this.productStore.findAll().length + 1;
+        product.id = this.productStore.find(this.productStore.findAll().length).id + 1;
+        this.productStore.put(product);
+
+        return product;
+    }
+
+    public createWithId(product: Product, id: number): Product | null {
+
+        if (product.name == '' || product.price < 0 || product.name == null || product.price == null) {
+            return null;
+        }
+
+        product.id = id;
         this.productStore.put(product);
 
         return product;

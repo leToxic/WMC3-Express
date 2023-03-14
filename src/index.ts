@@ -8,6 +8,7 @@ import express, {Express} from "express";
 import cors from "cors";
 import helmet from "helmet";
 import {ProductRouter} from "./product/product.router";
+import {CarRouter} from "./car/car.router";
 
 dotenv.config();
 if (!process.env.PORT) {
@@ -17,8 +18,8 @@ if (!process.env.PORT) {
 const PORT: number = parseInt(process.env.PORT as string, 10);
 
 
-class Application{
-    private express:Express;
+class Application {
+    private express: Express;
 
     constructor() {
         this.express = express();
@@ -26,7 +27,7 @@ class Application{
         this.configureExpress();
     }
 
-    private configureExpress(){
+    private configureExpress() {
         this.express.use(helmet());
         this.express.use(cors());
         this.express.use(express.json());
@@ -38,7 +39,7 @@ class Application{
                 winston.format.timestamp(),
                 winston.format.prettyPrint(),
                 winston.format.colorize({level: true}),
-                winston.format.printf(({ level, message, timestamp }) => {
+                winston.format.printf(({level, message, timestamp}) => {
                     return `${timestamp} [${level}]: ${message}`;
                 })
             ),
@@ -47,24 +48,25 @@ class Application{
 
         this.addRoutes();
 
-        this.express.use((req:any, res:any, next:any) => {
+        this.express.use((req: any, res: any, next: any) => {
             res.status(404);
-            res.json({error:"route not found"});
+            res.json({error: "route not found"});
         });
-        this.express.use((err:any, req:any, res:any, next:any) => {
+        this.express.use((err: any, req: any, res: any, next: any) => {
             console.error(err);
             res.status(500);
-            res.json({error:"Internal Server Error"});
+            res.json({error: "Internal Server Error"});
         });
     }
 
-    private addRoutes(){
+    private addRoutes() {
         /** Add new Main-Routes here (i.e. 'api/blog', 'api/student', 'ws/message', ...) */
 
         this.express.use("/api/product", new ProductRouter().router);
+        this.express.use("/api/cars", new CarRouter().router)
     }
 
-    public run(){
+    public run() {
 
         /** change port in .env-file, not here! */
 
