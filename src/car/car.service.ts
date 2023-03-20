@@ -27,6 +27,10 @@ export class CarService {
         return car;
     }
 
+    public reset() {
+        this.carStore.reset();
+    }
+
     public createWithId(car: Car, id: number): Car | null {
         if (this.checkIsValid(car)) {
             car.id = id;

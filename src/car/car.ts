@@ -5,5 +5,5 @@ export interface Car {
     price: number;
     ps: number;
     color: string;
-    buildYear: string;
+    buildDate: string;
 }

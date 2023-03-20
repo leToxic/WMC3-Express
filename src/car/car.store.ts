@@ -8,7 +8,7 @@ const defaultCars: Car[] = [
         price: 250000,
         ps: 305,
         color: 'grey',
-        buildYear: '25-01-2018'
+        buildDate: '25-01-2018'
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const defaultCars: Car[] = [
         price: 12000,
         ps: 120,
         color: 'yellow',
-        buildYear: '12-02-2012'
+        buildDate: '12-02-2012'
     }
 ]
 
