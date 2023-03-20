@@ -23,13 +23,14 @@ const defaultCars: Car[] = [
 
 
 export class CarStore {
-    private readonly cars: { [id: number]: Car } = {}
+    private cars: { [id: number]: Car } = {}
 
     constructor() {
         this.initWithDefault();
     }
 
     private initWithDefault() {
+        this.cars = {}
         defaultCars.forEach(car => {
             this.put(car);
         })

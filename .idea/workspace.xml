@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b761171-9a0f-4325-8c0a-cc987cd43dc1" name="Changes" comment="19 fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/car/car.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/car.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/car.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/car.store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,8 @@
       <workItem from="1679300053119" duration="41000" />
       <workItem from="1679300103014" duration="21000" />
       <workItem from="1679301790711" duration="118000" />
-      <workItem from="1679301968719" duration="4000" />
+      <workItem from="1679301968719" duration="40000" />
+      <workItem from="1679302051978" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="16 fertig">
       <created>1676389123261</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679300112494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="19 fertig">
+      <created>1679301980386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679301980386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
