@@ -1,11 +1,13 @@
 import {InMemoryProductStore} from "./inMemoryProduct.store";
 import {Product} from "./product";
+import {DbProductStore} from "./dbProduct.store";
+import {ProductStore} from "./product.store";
 
 export class ProductService {
-    private productStore: InMemoryProductStore;
+    private productStore: ProductStore;
 
     constructor() {
-        this.productStore = new InMemoryProductStore();
+        this.productStore = new DbProductStore();
     }
 
     public async findAll(): Promise<Product[]> {

@@ -1,11 +1,11 @@
 import {ConnectionPool} from 'mssql';
 
-export class DBPool{
-    private static  readonly config = {
-        user: 'sa',
-        password: '1_2_yourStrongPassword',
-        server: 'localhost', // You can use 'localhost\\instance' to connect to named instance
-        database: 'wmc',
+export class DBPool {
+    private static readonly config = {
+        user: 'plasek_sebastian',
+        password: 'password',
+        server: 'ifsql-01', // You can use 'localhost\\instance' to connect to named instance
+        database: 's_plasek_sebastian_1',
         pool: {
             max: 10,
             min: 0,
@@ -13,16 +13,16 @@ export class DBPool{
         },
         trustServerCertificate: true
     }
-    private static instance:ConnectionPool|undefined;
+    private static instance: ConnectionPool | undefined;
 
-    static getInstance():ConnectionPool{
-        if(!this.instance){
+    static getInstance(): ConnectionPool {
+        if (!this.instance) {
             throw "Pool not connected to DB";
         }
         return this.instance
     }
 
-    static async connect(){
+    static async connect() {
         this.instance = await (new ConnectionPool(this.config)).connect();
     }
 }

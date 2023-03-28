@@ -2,7 +2,7 @@ import {ProductService} from "./product.service";
 import {Product} from "./product";
 import {Router} from "express";
 
-export class ProductRouterNew {
+export class ProductRouterNew2 {
     private readonly productService: ProductService;
     private readonly _router: Router;
 

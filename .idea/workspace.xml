@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b761171-9a0f-4325-8c0a-cc987cd43dc1" name="Changes" comment="19 fertig">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product2/inMemoryProduct.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product2/product.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product2/product.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product2/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product2/productRouterNew.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product3/dbPool.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product3/inMemoryProduct.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product3/product.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product3/product.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product3/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product3/productRouterNew.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product3/dbProduct.store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product3/dbPool.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/product3/dbPool.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product3/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/product3/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product3/productRouterNew.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/product3/productRouterNew2.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Schule/WMC3-Express/src&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Schule\\WMC3-Express\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Schule/WMC3-Express/src",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general",
+    "ts.external.directory.path": "C:\\Users\\20200569\\IdeaProjects\\WMC3-Express\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Schule\WMC3-Express\src" />

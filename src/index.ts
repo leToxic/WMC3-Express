@@ -10,6 +10,8 @@ import helmet from "helmet";
 import {ProductRouter} from "./product/product.router";
 import {CarRouter} from "./car/car.router";
 import {ProductRouterNew} from "./product2/productRouterNew"
+import {ProductRouterNew2} from "./product3/productRouterNew2";
+import {DBPool} from "./product3/dbPool";
 
 dotenv.config();
 if (!process.env.PORT) {
@@ -66,6 +68,8 @@ class Application {
         this.express.use("/api/product", new ProductRouter().router);
         this.express.use("/api/cars", new CarRouter().router)
         this.express.use("/api/product2", new ProductRouterNew().router);
+        this.express.use("/api/product3", new ProductRouterNew2().router);
+
 
     }
 
@@ -73,10 +77,16 @@ class Application {
 
         /** change port in .env-file, not here! */
 
-        this.express.listen(PORT, () => {
-            console.log(`Listening on port ${PORT}`);
+        DBPool.connect().then(() => {
+            this.express.listen(PORT, function () {
+                console.log(`Listening on port${PORT}`);
+            })
         });
     }
 }
 
-new Application().run();
+new
+
+Application()
+
+    .run();
