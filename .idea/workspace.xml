@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b761171-9a0f-4325-8c0a-cc987cd43dc1" name="Changes" comment="19 fertig">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product2/inMemoryProduct.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product2/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product2/product.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product2/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product2/productRouterNew.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product3/dbPool.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product3/inMemoryProduct.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product3/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product3/product.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product3/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product3/productRouterNew.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/car/car.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/car.store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +51,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Schule/WMC3-Express/src&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Schule\\WMC3-Express\\node_modules\\typescript\\lib&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Schule\WMC3-Express\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Schule\WMC3-Express\src\product3" />
       <recent name="C:\Schule\WMC3-Express" />
     </key>
   </component>
@@ -92,7 +112,9 @@
       <workItem from="1679300103014" duration="21000" />
       <workItem from="1679301790711" duration="118000" />
       <workItem from="1679301968719" duration="40000" />
-      <workItem from="1679302051978" duration="44000" />
+      <workItem from="1679302051978" duration="65000" />
+      <workItem from="1679408471098" duration="1974000" />
+      <workItem from="1680008691410" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="16 fertig">
       <created>1676389123261</created>
@@ -122,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679301980386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="19 fertig">
+      <created>1679302103052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679302103068</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -9,6 +9,7 @@ import cors from "cors";
 import helmet from "helmet";
 import {ProductRouter} from "./product/product.router";
 import {CarRouter} from "./car/car.router";
+import {ProductRouterNew} from "./product2/productRouterNew"
 
 dotenv.config();
 if (!process.env.PORT) {
@@ -64,6 +65,8 @@ class Application {
 
         this.express.use("/api/product", new ProductRouter().router);
         this.express.use("/api/cars", new CarRouter().router)
+        this.express.use("/api/product2", new ProductRouterNew().router);
+
     }
 
     public run() {
